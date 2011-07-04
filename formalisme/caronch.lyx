@@ -1,0 +1,189 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+CARONCH
+\end_layout
+
+\begin_layout Abstract
+Présentation du formalisme CARONCH, Carré-Rond-Flèche.
+ Un formalisme simple permettant de monter les processus et les données
+ d'un système.
+\end_layout
+
+\begin_layout Section
+Objectifs
+\end_layout
+
+\begin_layout Standard
+CARONCH pour Carré - Rond - Flèche est un formalisme simple permettant de
+ monter les processus et les données d'un système.
+\end_layout
+
+\begin_layout Standard
+L'objectif principal de ce formalisme est de mettre en valeur les données
+ et les interactions autour.
+\end_layout
+
+\begin_layout Section
+Représentation graphique
+\end_layout
+
+\begin_layout Itemize
+Symboles
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\align left
+\begin_inset Graphics
+	filename data.dot
+	width 3cm
+	height 1cm
+	keepAspectRatio
+
+\end_inset
+
+ correspond à une donnée.
+\end_layout
+
+\begin_layout Itemize
+\align left
+\begin_inset Graphics
+	filename process.dot
+	width 3cm
+	height 1cm
+	keepAspectRatio
+
+\end_inset
+
+ correspond à un processus.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Interaction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\align left
+\begin_inset Graphics
+	filename arrow.dot
+	width 3cm
+	height 1cm
+	keepAspectRatio
+
+\end_inset
+
+ correspond à un échange ou une création de données.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Règles de construction
+\end_layout
+
+\begin_layout Enumerate
+Les interactions ne sont pas considérées comme des symboles.
+\end_layout
+
+\begin_layout Enumerate
+Le temps n'est pas représenté.
+\end_layout
+
+\begin_layout Enumerate
+L’occurrence des interactions n'est pas représentée.
+\end_layout
+
+\begin_layout Enumerate
+Il y a alternance entre processus et données.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Il ne peut y avoir deux (2) symboles identiques à la chaîne.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Les labels
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+/étiquettes/noms
+\end_layout
+
+\end_inset
+
+ des symboles doivent être différents s'il caractérisent des informations
+ différentes.
+\end_layout
+
+\begin_layout Enumerate
+Il est possible de regrouper des symboles pour les agréger en un processus
+ de traitement de données.
+\end_layout
+
+\end_body
+\end_document
