@@ -97,9 +97,6 @@ Symboles
 \align left
 \begin_inset Graphics
 	filename data.dot
-	width 3cm
-	height 1cm
-	keepAspectRatio
 
 \end_inset
 
@@ -110,9 +107,6 @@ Symboles
 \align left
 \begin_inset Graphics
 	filename process.dot
-	width 3cm
-	height 1cm
-	keepAspectRatio
 
 \end_inset
 
@@ -129,9 +123,6 @@ Interaction
 \align left
 \begin_inset Graphics
 	filename arrow.dot
-	width 3cm
-	height 1cm
-	keepAspectRatio
 
 \end_inset
 
