@@ -64,6 +64,43 @@
 CARONCH
 \end_layout
 
+\begin_layout Author
+Jean-Pierre Prunaret 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Yves Dubromelle
+\end_layout
+
+\begin_layout Date
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+v0.1
+\end_layout
+
 \begin_layout Abstract
 Présentation du formalisme CARONCH, Carré-Rond-Flèche.
  Un formalisme simple permettant de monter les processus et les données
@@ -115,18 +152,27 @@ Symboles
 
 \end_deeper
 \begin_layout Itemize
-Interaction
+Interactions
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 \align left
 \begin_inset Graphics
-	filename arrow.dot
+	filename read_arrow.dot
 
 \end_inset
 
- correspond à un échange ou une création de données.
+ correspond à la lecture d'une donnée par un processus.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename write_arrow.dot
+
+\end_inset
+
+correspond à l'écriture d'une donnée par un processus.
 \end_layout
 
 \end_deeper
@@ -151,24 +197,17 @@ Il y a alternance entre processus et données.
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate
-Il ne peut y avoir deux (2) symboles identiques à la chaîne.
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Il ne peut y avoir deux (2) symboles identiques à la chaîne.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-Les labels
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-/étiquettes/noms
-\end_layout
-
-\end_inset
-
- des symboles doivent être différents s'il caractérisent des informations
- différentes.
+Les étiquettes des symboles doivent être différents s'il caractérisent des
+ informations différentes.
 \end_layout
 
 \begin_layout Enumerate

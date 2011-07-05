@@ -5,14 +5,14 @@
 digraph DecisionSupportGraph {
 
 		node [shape=box,style="filled",fillcolor=peachpuff];
-		d[label=""];
+		d[label="data"];
 		node [shape=ellipse,style="filled",fillcolor=olivedrab1];
-		p1[label=""];
+		p1[label="process"];
 		
 		
 		subgraph { 
 		rank = same; d; p1;
-		p1 -> d;
+		d -> p1;
 		} 
 }
 
