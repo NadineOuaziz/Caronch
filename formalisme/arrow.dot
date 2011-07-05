@@ -4,7 +4,7 @@
 
 digraph DecisionSupportGraph {
 
-		node [shape=box,style="filled",fillcolor=peachpuff;
+		node [shape=box,style="filled",fillcolor=peachpuff];
 		d[label=""];
 		node [shape=ellipse,style="filled",fillcolor=olivedrab1];
 		p1[label=""];
