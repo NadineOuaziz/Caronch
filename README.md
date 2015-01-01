@@ -20,7 +20,7 @@ L'objectif principal de ce formalisme est de mettre en valeur les données et le
 
 * Symboles
 
-  * ![symbole donnée](images/data.png) correspond à une donnée.
+  * ![symbole donnée](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/data.png) correspond à une donnée.
 
   * <Fichier graphique : /home/taeradan/GIT/caronch/formalisme/process.dot>
      correspond à un processus.
