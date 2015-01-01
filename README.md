@@ -1,6 +1,6 @@
 # CARONCH
 
-![Logo Caronch](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/logo.svg)
+![Logo Caronch](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/logo.png)
 
 Jean-Pierre Prunaret  Yves Dubromelle
 
