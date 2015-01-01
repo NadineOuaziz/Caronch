@@ -20,18 +20,23 @@ L'objectif principal de ce formalisme est de mettre en valeur les données et le
 
 * Symboles
 
-  * ![symbole donnée](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/data.png) correspond à une donnée.
+    * une donnée :
 
-  * <Fichier graphique : /home/taeradan/GIT/caronch/formalisme/process.dot>
-     correspond à un processus.
+![symbole donnée](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/data.png)
+
+    * un processus :
+
+![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/process.png)
 
 * Interactions
 
-  * <Fichier graphique : /home/taeradan/GIT/caronch/formalisme/read_arrow.dot>
-     correspond à la lecture d'une donnée par un processus.
+  * lecture d'une donnée par un processus :
 
-  * <Fichier graphique : /home/taeradan/GIT/caronch/formalisme/write_arrow.dot>
-    correspond à l'écriture d'une donnée par un processus.
+![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/read_arrow.png)
+
+    * écriture d'une donnée par un processus :
+
+![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/write_arrow.png)
 
 # Règles de construction
 
