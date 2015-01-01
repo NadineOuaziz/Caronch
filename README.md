@@ -2,10 +2,8 @@
 
 ![Logo Caronch](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/logo.png)
 
-Jean-Pierre Prunaret  Yves Dubromelle
+Jean-Pierre Prunaret et Yves Dubromelle
 
-
-v0.1
 
 ## Résumé
 
@@ -49,4 +47,9 @@ L'objectif principal de ce formalisme est de mettre en valeur les données et le
 1. Il ne peut y avoir deux (2) symboles identiques à la chaîne.
 1. Les étiquettes des symboles doivent être différents s'il caractérisent des informations différentes.
 1. Il est possible de regrouper des symboles pour les agréger en un processus de traitement de données.
+
+## Licence
+
+![logo creative common by-sa 3.0](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
+[Creative Commons Paternité – Partage à l’Identique 3.0 non transcrit](http://creativecommons.org/licenses/by-sa/3.0/)
 
