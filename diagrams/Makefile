@@ -58,4 +58,5 @@ $(EXE_png_dot): $(OBJ_png_dot)
 
 %.png: %.dot
 	@echo -e "\t - $@"
-	@dot -Tpdf $< -o $@
+	@dot -Tpng $< -o $@
+
