@@ -7,14 +7,18 @@ Jean-Pierre Prunaret et Yves Dubromelle
 
 ## Résumé
 
-Présentation du formalisme CARONCH, Carré-Rond-Flèche.
-Un formalisme simple permettant de monter les processus et les données d'un système.
+CARONCH, pour Carré-Rond-Flèche est un formalisme simple permettant de monter les processus et les données d'un système.
 
 ## Objectifs
 
-CARONCH pour Carré - Rond - Flèche est un formalisme simple permettant de monter les processus et les données d'un système.
+Le formalisme CARONCH a été créé pour :
 
-L'objectif principal de ce formalisme est de mettre en valeur les données et les interactions autour.
+* mettre en valeur les données et les interactions autour
+* être simple = peu de symboles différents
+* être visuel = utilisation de schéma
+* séparer les données et les actions
+
+Les actions sont par exempe : stockage, transformation, suppression, ...
 
 ## Représentation graphique
 
