@@ -7,7 +7,7 @@ digraph Def {
     card_familly[label="Famille de carte\n[Coeur..Trefle]"];
     card_value[label="Valeur de la carte\n[As..Roi]"];
 
-    card_deck[label="Jeu de carte\n[(Coeur, As)..(Coeur, Roi)..(Trefle, Roi)"];
+    card_deck[label="Jeu de carte\n[(Coeur, As)..(Coeur, Roi)..(Trefle, Roi)]"];
   
     /** Process definition */
     node [shape=ellipse,style="filled",fillcolor=olivedrab1];
