@@ -52,6 +52,16 @@ Les actions sont par exempe : stockage, transformation, suppression, ...
 1. Les étiquettes des symboles doivent être différents s'il caractérisent des informations différentes.
 1. Il est possible de regrouper des symboles pour les agréger en un processus de traitement de données.
 
+## Exemples
+
+### Création d'un jeu de cartes
+
+Il s'agit de modéliser le croisement de deux ensembles pour faire toutes les combinaisons possible.
+En terme mathématique, il s'agit de réaliser le produit cartésien de ces deux ensembles.
+
+![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/sample_card_deck.png]
+
+
 ## Licence
 
 ![logo creative common by-sa 3.0](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
