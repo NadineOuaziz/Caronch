@@ -59,7 +59,7 @@ Les actions sont par exempe : stockage, transformation, suppression, ...
 Il s'agit de modéliser le croisement de deux ensembles pour faire toutes les combinaisons possible.
 En terme mathématique, il s'agit de réaliser le produit cartésien de ces deux ensembles.
 
-![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/sample_card_deck.png]
+![card deck](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/sample_card_deck.png)
 
 
 ## Licence
