@@ -1,0 +1,27 @@
+digraph Def {
+
+    /** Data definition  */
+    node [shape=box,style="filled",fillcolor=peachpuff];
+
+    //-- Data nodes
+    card_familly[label="Famille de carte\n[Coeur..Trefle]"];
+    card_value[label="Valeur de la carte\n[As..Roi]"];
+
+    card_deck[label="Jeu de carte\n[(Coeur, As)..(Coeur, Roi)..(Trefle, Roi)"];
+  
+    /** Process definition */
+    node [shape=ellipse,style="filled",fillcolor=olivedrab1];
+
+    //-- Process nodes
+    cartesian_product[label="Produit cartésien x"];
+		
+
+    /** Relations */		
+    subgraph { 
+	card_familly -> cartesian_product;
+        card_value -> cartesian_product;
+
+        cartesian_product -> card_deck;
+    } 
+}
+
