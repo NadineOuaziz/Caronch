@@ -52,6 +52,21 @@ Les actions sont par exempe : stockage, transformation, suppression, ...
 1. Les étiquettes des symboles doivent être différents s'il caractérisent des informations différentes.
 1. Il est possible de regrouper des symboles pour les agréger en un processus de traitement de données.
 
+## Extension
+
+### Utiliation de Données-prédicat
+
+L'expressivité des données peut être améliorée, notamment dans le cas des sorties booléenne, en utilisant des prédicats.
+Dans ce cas, et à la condition que les différents prédicats soient exclusifs [1], il est possible de préciser la valeur d'une donnée.
+
+* exemple : utilisation habituelle d'une donnée pour 2 processus.
+
+![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/data_atomic.png)
+
+* exemple : utilisation d'une donnée-prédicat pour exprimer le choix d'un processus ou d'un autre.
+
+![symbole processus](https://raw.githubusercontent.com/Taeradan/Caronch/master/images/data_predicate.png)
+
 ## Exemples
 
 ### Création d'un jeu de cartes
@@ -67,3 +82,4 @@ En terme mathématique, il s'agit de réaliser le produit cartésien de ces deux
 ![logo creative common by-sa 3.0](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 [Creative Commons Paternité – Partage à l’Identique 3.0 non transcrit](http://creativecommons.org/licenses/by-sa/3.0/)
 
+[1] les prédicats exclusifs sont des prédicats qui ne peuvent pas être vrai en même temps.
