@@ -1,0 +1,18 @@
+digraph Def {
+
+        /** Data */
+	node [shape=box,style="filled",fillcolor=peachpuff];
+        r1[label="reponse = true"];
+        r2[label="reponse = false"];
+	
+        /** Process */
+        node [shape=ellipse,style="filled",fillcolor=olivedrab1];
+	process [label="process"];
+        p1;
+        p2;
+
+        process -> {r1; r2};
+        r1 -> p1;
+        r2 -> p2;
+}
+
